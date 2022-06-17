@@ -5,7 +5,7 @@
   };
 
   // padding for fixed header
-  if (refs.header.classList.contains('is-fixed')) {
+  if (refs.header.classList.contains('page-header--fixed')) {
     const { height: headerHeight } = refs.header.getBoundingClientRect();
     document.body.style.paddingTop = `${headerHeight}px`;
   }

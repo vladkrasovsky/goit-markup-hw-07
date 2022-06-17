@@ -463,33 +463,33 @@ body {
   white-space: nowrap;
 }
 
-/* -----------------------HEADER--------------------- */
-.header {
+/* -----------------------PAGE HEADER--------------------- */
+.page-header {
   min-height: var(--header-height);
 
   background-color: var(--header-bg);
   border-bottom: 1px solid var(--header-border-color);
 }
-.header.is-fixed {
+.page-header--fixed {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
 }
-.header-wrap {
+.page-header__wrap {
   display: flex;
   align-items: center;
 }
-.header-logo {
+.page-header__logo {
   align-self: stretch;
   display: flex;
   align-items: center;
 }
-.header-nav {
+.page-header__menu {
   margin-left: 93px;
 }
-.header-contacts {
+.page-header__contacts {
   margin-left: auto;
 }
 
