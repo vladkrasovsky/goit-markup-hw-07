@@ -337,6 +337,7 @@ body {
   height: auto;
 }
 
+/* link */
 .link {
   text-decoration: none;
   color: inherit;
@@ -349,10 +350,10 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
-.link-dark {
+.link--dark {
   color: var(--text-color-dark);
 }
-.link-light {
+.link--light {
   color: var(--text-color-light);
 }
 
