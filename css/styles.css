@@ -363,18 +363,19 @@ body {
   list-style-type: none;
 }
 
-.list-socials {
+/* socials list */
+.socials-list {
   display: flex;
 }
-.list-socials-item {
+.socials-list__item {
   --size: 44px;
   height: var(--size);
   width: var(--size);
 }
-.list-socials-item:not(:last-child) {
+.socials-list__item:not(:last-child) {
   margin-right: 10px;
 }
-.list-socials-link {
+.socials-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,25 +383,25 @@ body {
   height: 100%;
   width: 100%;
 
-  color: var(--socials-color);
-  background-color: var(--socials-bg);
+  color: var(--icon-base-color);
+  background-color: transparent;
   border-radius: 50%;
+  fill: currentColor;
 
   transition-duration: var(--transition-base-time);
   transition-timing-function: var(--transition-base-animation);
   transition-property: color, background-color;
 }
-.list-socials-link:hover,
-.list-socials-link:focus {
+.socials-list__link:hover,
+.socials-list__link:focus {
   color: var(--socials-color);
-}
-.list-socials-icon {
-  fill: currentColor;
+  background-color: var(--accent-color);
 }
 
-.list-socials-link:hover,
-.list-socials-link:focus {
-  background-color: var(--accent-color);
+/* socials list light */
+.socials-list__link--light {
+  color: var(--socials-color);
+  background-color: var(--socials-bg);
 }
 
 .logo {
@@ -633,7 +634,7 @@ body {
 .team-socials {
   justify-content: center;
 }
-.team-socials .list-socials-link {
+/* .team-socials .list-socials-link {
   color: var(--icon-base-color);
   background-color: transparent;
 }
@@ -641,7 +642,7 @@ body {
 .team-socials .list-socials-link:focus {
   color: var(--socials-color);
   background-color: var(--accent-color);
-}
+} */
 
 .card {
   background-color: var(--card-bg);
