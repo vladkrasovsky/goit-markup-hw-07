@@ -832,24 +832,26 @@ body {
 .footer-logo {
   margin-bottom: 20px;
 }
-.footer-address {
+
+/* main contacts */
+.main-contacts {
   font-style: normal;
 }
-.footer-address-item:not(:last-child) {
+.main-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-link {
+.main-contacts__link {
   line-height: 1.71;
 
   transition-duration: var(--transition-base-time);
   transition-timing-function: var(--transition-base-animation);
   transition-property: color;
 }
-.footer-link:not(.link-light) {
+.main-contacts__link:not(.link-light) {
   color: var(--footer-link-color);
 }
-.footer-link:hover,
-.footer-link:focus {
+.main-contacts__link:hover,
+.main-contacts__link:focus {
   color: var(--accent-color);
 }
 
