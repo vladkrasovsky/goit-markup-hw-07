@@ -510,11 +510,11 @@ body {
   line-height: calc(16 / 14); /* need equal value to get propper height (80px) of header */
   letter-spacing: var(--letter-spacing-sm);
 }
-.nav__item.current .nav__link {
+.nav__item--current .nav__link {
   position: relative;
   color: var(--accent-color);
 }
-.nav__item.current .nav__link::after {
+.nav__item--current .nav__link::after {
   content: '';
 
   position: absolute;
