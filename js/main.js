@@ -1,6 +1,6 @@
 (() => {
   const refs = {
-    header: document.querySelector('.header'),
+    header: document.querySelector('[data-page-header]'),
     forms: document.querySelectorAll('.js-speaker-form'),
   };
 
