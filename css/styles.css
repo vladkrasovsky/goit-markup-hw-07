@@ -303,7 +303,7 @@ body {
 /* button states */
 .button:hover,
 .button:focus,
-.filter-item.current .button {
+.filter__item--current .button {
   color: var(--text-color-light);
 
   background-color: var(--accent-color);
@@ -714,7 +714,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.filter-item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 .portfolio-list > .grid__item {
