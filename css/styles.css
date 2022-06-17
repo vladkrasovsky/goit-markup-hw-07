@@ -602,13 +602,12 @@ body {
 .work {
   padding-top: calc(var(--section-padding) / 2);
 }
-.work-list > .grid__item {
+.work-list__item {
+  position: relative;
+
   flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
-.work-item {
-  position: relative;
-}
-.work-label {
+.work-list__label {
   position: absolute;
   bottom: 0;
 
