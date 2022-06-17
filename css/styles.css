@@ -817,14 +817,14 @@ body {
 
   background-color: var(--section-bg-dark);
 }
-.footer-wrap {
+.footer__wrap {
   display: flex;
   align-items: baseline;
 }
-.footer-item:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-right: 70px;
 }
-.footer-logo {
+.footer__logo {
   margin-bottom: 20px;
 }
 
@@ -850,7 +850,7 @@ body {
   color: var(--accent-color);
 }
 
-.footer-item-title {
+.footer__title {
   margin-bottom: 20px;
   margin-top: 0;
 
@@ -864,21 +864,21 @@ body {
   text-transform: uppercase;
 }
 
-.footer-item.subscription {
+.footer__item--subscription {
   margin-left: auto;
 }
 .subscription-form {
   display: flex;
   align-items: center;
 }
-.subscription-form .form-field {
+.subscription-form__field {
   margin-bottom: 0;
 }
-.subscription-input {
+.subscription-form__input {
   width: 358px;
   margin-right: 12px;
 }
-.subscription-label {
+.subscription-form__label {
   font-size: 16px;
   color: var(--footer-link-color);
 }
