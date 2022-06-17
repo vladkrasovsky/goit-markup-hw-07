@@ -717,39 +717,40 @@ body {
 .filter__item:not(:last-child) {
   margin-right: 8px;
 }
-.portfolio-list > .grid__item {
+.portfolio__item {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
-.portfolio-item {
-  background-color: var(--card-bg);
-}
-.portfolio-link {
+
+/* product */
+.product {
   display: flex;
   flex-direction: column;
   height: 100%;
+
+  background-color: var(--card-bg);
 
   transition-duration: var(--transition-base-time);
   transition-timing-function: var(--transition-base-animation);
   transition-property: box-shadow;
 }
-.portfolio-link:hover,
-.portfolio-link:focus {
+.product:hover,
+.product:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-link:hover .portfolio-thumb-wrap,
-.portfolio-link:focus .portfolio-thumb-wrap {
+.product:hover .product__overlay,
+.product:focus .product__overlay {
   transform: translateY(0);
 }
-.portfolio-thumb {
+.product__thumb {
   position: relative;
   overflow: hidden;
 }
-.portfolio-thumb-wrap,
-.portfolio-thumb-text {
+.product__overlay,
+.product__text {
   position: absolute;
 }
-.portfolio-thumb-wrap {
+.product__overlay {
   left: 0;
   top: 0;
 
@@ -763,7 +764,7 @@ body {
   transition-duration: var(--transition-base-time);
   transition-timing-function: var(--transition-base-animation);
 }
-.portfolio-thumb-text {
+.product__text {
   --offsetY: 63px;
   --offsetX: 24px;
 
@@ -780,7 +781,7 @@ body {
 
   overflow: hidden;
 }
-.portfolio-item-body {
+.product__content {
   flex-grow: 1;
   display: block;
   padding: 20px 24px;
@@ -788,11 +789,11 @@ body {
   border: 1px solid var(--portfolio-border-color);
   border-top: none;
 }
-.portfolio-item-title,
-.portfolio-item-text {
+.product__title,
+.product__type {
   margin-top: 0;
 }
-.portfolio-item-title {
+.product__title {
   margin-bottom: 4px;
 
   font-weight: 700;
@@ -801,7 +802,7 @@ body {
   letter-spacing: var(--letter-spacing-lg);
   color: var(--text-color-dark);
 }
-.portfolio-item-text {
+.product__type {
   margin-bottom: 0;
 
   font-size: 16px;
