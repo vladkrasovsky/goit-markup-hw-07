@@ -631,18 +631,9 @@ body {
   background-color: var(--section-bg-light);
 }
 
-.team-socials {
+.team__socials {
   justify-content: center;
 }
-/* .team-socials .list-socials-link {
-  color: var(--icon-base-color);
-  background-color: transparent;
-}
-.team-socials .list-socials-link:hover,
-.team-socials .list-socials-link:focus {
-  color: var(--socials-color);
-  background-color: var(--accent-color);
-} */
 
 .card {
   background-color: var(--card-bg);
