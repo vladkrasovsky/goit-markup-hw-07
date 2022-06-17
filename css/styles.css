@@ -78,8 +78,8 @@ body {
   /* outline: 1px dashed red; */
 }
 
-/* card set */
-.card-set {
+/* grid component */
+.grid {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -89,7 +89,7 @@ body {
   margin-left: calc(-1 * var(--card-set-gap));
   margin-top: calc(-1 * var(--card-set-gap));
 }
-.card-set > .item {
+.grid__item {
   flex-basis: calc(100% / 4 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
@@ -602,7 +602,7 @@ body {
 .work {
   padding-top: calc(var(--section-padding) / 2);
 }
-.work-list > .item {
+.work-list > .grid__item {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 .work-item {
@@ -675,7 +675,7 @@ body {
 .clients-item {
   height: 92px;
 }
-.clients-list > .item {
+.clients-list > .grid__item {
   flex-basis: calc(100% / 6 - var(--card-set-gap));
 }
 .clients-link {
@@ -715,7 +715,7 @@ body {
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
-.portfolio-list > .item {
+.portfolio-list > .grid__item {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 .portfolio-item {
