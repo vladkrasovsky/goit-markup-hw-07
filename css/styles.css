@@ -488,13 +488,18 @@ body {
 .header-nav {
   margin-left: 93px;
 }
-.header-list {
+.header-contacts {
+  margin-left: auto;
+}
+
+/* nav */
+.nav {
   display: flex;
 }
-.header-list-item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
-.header-link {
+.nav__link {
   display: inline-flex;
   align-items: center;
   padding-bottom: var(--header-padding);
@@ -504,11 +509,11 @@ body {
   line-height: calc(16 / 14); /* need equal value to get propper height (80px) of header */
   letter-spacing: var(--letter-spacing-sm);
 }
-.header-list-item.current .header-link {
+.nav__item.current .nav__link {
   position: relative;
   color: var(--accent-color);
 }
-.header-list-item.current .header-link::after {
+.nav__item.current .nav__link::after {
   content: '';
 
   position: absolute;
@@ -520,12 +525,9 @@ body {
   background-color: currentColor;
   border-radius: 2px;
 }
-.header-link-icon {
+.nav__icon {
   margin-right: 10px;
   fill: currentColor;
-}
-.header-contacts {
-  margin-left: auto;
 }
 
 /* -----------------------HERO----------------------- */
