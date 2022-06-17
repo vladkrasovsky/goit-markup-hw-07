@@ -13,12 +13,12 @@
 
   function toggleModal() {
     let scrollBarWidth = `${getBrwoserScrollbarWidth()}px`;
-    refs.modal.classList.toggle('is-hidden');
+    refs.modal.classList.toggle('backdrop--hidden');
     refs.body.style.paddingRight = scrollBarWidth;
     refs.body.style.overflow = 'hidden';
     refs.header.style.right = scrollBarWidth;
     refs.modalInner.style.right = scrollBarWidth;
-    if (refs.modal.classList.contains('is-hidden')) {
+    if (refs.modal.classList.contains('backdrop--hidden')) {
       refs.body.style.paddingRight = 0;
       refs.body.style.overflow = 'auto';
       refs.header.style.right = 0;

@@ -644,15 +644,15 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop backdrop--hidden" data-modal>
       <div class="modal" data-modal-inner>
-        <div class="modal-dialog centered">
-          <button class="modal-close" data-modal-close type="button" aria-label="Закрыть">
+        <div class="modal__dialog modal__dialog--centered">
+          <button class="modal__close" data-modal-close type="button" aria-label="Закрыть">
             <svg width="11" height="11">
               <use href="./images/icons.svg#icon-close" />
             </svg>
           </button>
-          <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+          <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
           <form class="js-speaker-form data-form">
             <label class="form-field">
               <span class="form-option">Имя</span>
@@ -678,7 +678,7 @@
               </svg>
             </label>
 
-            <label class="form-field data-form-text">
+            <label class="form-field data-form__text">
               <span class="form-option">Комментарий</span>
               <textarea
                 class="input input-textarea"
@@ -693,7 +693,7 @@
                 <use class="use" href="./images/icons.svg#icon-check" />
               </svg>
               Соглашаюсь с рассылкой и принимаю
-              <a class="link modal-link" href="">Условия договора</a>
+              <a class="link modal__link" href="">Условия договора</a>
             </label>
 
             <button class="button button--accent" type="submit">Отправить</button>

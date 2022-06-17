@@ -900,12 +900,12 @@ body {
   transition-duration: var(--transition-base-time);
   transition-timing-function: var(--transition-base-animation);
 }
-.backdrop.is-hidden {
+.backdrop--hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-.backdrop.is-hidden .modal-dialog {
+.backdrop--hidden .modal__dialog {
   opacity: 0;
   transform: translateY(-50px);
 }
@@ -923,7 +923,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
 }
-.modal-dialog {
+.modal__dialog {
   position: relative;
 
   width: 528px;
@@ -944,10 +944,10 @@ body {
   transition-duration: var(--transition-base-time);
   transition-timing-function: var(--transition-base-animation);
 }
-.modal-dialog.centered {
+.modal__dialog--centered {
   text-align: center;
 }
-.modal-close {
+.modal__close {
   --size: 30px;
 
   position: absolute;
@@ -970,13 +970,13 @@ body {
 
   cursor: pointer;
 }
-.modal-close:hover {
+.modal__close:hover {
   fill: var(--accent-color);
 }
-.modal-close:focus {
+.modal__close:focus {
   transform: rotate(90deg);
 }
-.modal-title {
+.modal__title {
   margin-top: 0;
   margin-bottom: 30px;
 
@@ -987,16 +987,16 @@ body {
 
   color: var(--text-color-dark);
 }
-.modal-link {
+.modal__link {
   color: var(--accent-color);
   text-decoration: underline;
 }
-.modal-link:hover,
-.modal-link:focus {
+.modal__link:hover,
+.modal__link:focus {
   color: var(--accent-color-dark);
 }
 
 /* data form */
-.data-form-text {
+.data-form__text {
   margin-bottom: 20px;
 }
