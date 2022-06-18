@@ -1,0 +1,11 @@
+// Benefits
+
+.benefits {
+  @extend %section;
+
+  padding-bottom: calc(var(--section-padding) / 2);
+}
+
+.benefits__wrap {
+  @extend %container;
+}

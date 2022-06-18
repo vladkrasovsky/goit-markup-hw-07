@@ -1,4 +1,4 @@
-.hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap, .benefits__wrap {
+.benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -18,7 +18,7 @@
   list-style-type: none;
 }
 
-.portfolio, .clients, .team, .work, .benefits {
+.benefits, .portfolio, .clients, .team, .work {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -623,11 +623,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #fff;
-}
-
-/* -----------------------BENEFITS------------------- */
-.benefits {
-  padding-bottom: calc(var(--section-padding) / 2);
 }
 
 /* -----------------------WORK----------------------- */
@@ -1424,4 +1419,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.benefits {
+  padding-bottom: calc(var(--section-padding) / 2);
 }/*# sourceMappingURL=main.css.map */

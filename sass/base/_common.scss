@@ -65,18 +65,6 @@ body {
   background-color: $main-bg;
 }
 
-/* -----------------------BENEFITS------------------- */
-
-.benefits {
-  @extend %section;
-
-  padding-bottom: calc(var(--section-padding) / 2);
-}
-
-.benefits__wrap {
-  @extend %container;
-}
-
 /* -----------------------WORK----------------------- */
 .work {
   @extend %section;
