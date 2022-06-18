@@ -1,4 +1,4 @@
-.team__wrap, .work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap {
+.clients__wrap, .team__wrap, .work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -18,12 +18,12 @@
   list-style-type: none;
 }
 
-.team, .work, .benefits, .portfolio, .clients {
+.clients, .team, .work, .benefits, .portfolio {
   padding-bottom: 94px;
   padding-top: 94px;
 }
 
-.team__title, .work__title, .clients__title {
+.clients__title, .team__title, .work__title {
   margin-bottom: 50px;
   margin-top: 0;
   font-size: 36px;
@@ -623,48 +623,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #fff;
-}
-
-/* ----------------------CLIENTS------------------- */
-/* clients list */
-.clients-list__item {
-  height: 92px;
-}
-
-.clients-list__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: calc(var(--grid-gap) / 2);
-  color: var(--icon-base-color);
-  border: 1px solid var(--icon-base-color);
-  border-radius: 4px;
-  -webkit-transition-duration: var(--transition-base-time);
-          transition-duration: var(--transition-base-time);
-  -webkit-transition-timing-function: var(--transition-base-animation);
-          transition-timing-function: var(--transition-base-animation);
-  -webkit-transition-property: color, border-color;
-  transition-property: color, border-color;
-}
-
-.clients-list__link:hover,
-.clients-list__link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.clients-list__icon {
-  max-width: 100%;
-  max-height: 100%;
-  fill: currentColor;
 }
 
 /* ----------------------PORTFOLIO------------------- */
@@ -1421,4 +1379,42 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.clients-list__item {
+  height: 92px;
+}
+
+.clients-list__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-property: color, border-color;
+  transition-property: color, border-color;
+}
+.clients-list__link:hover, .clients-list__link:focus {
+  color: #2196f3;
+  border-color: #2196f3;
+}
+
+.clients-list__icon {
+  max-width: 100%;
+  max-height: 100%;
+  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */

@@ -65,48 +65,6 @@ body {
   background-color: $main-bg;
 }
 
-/* ----------------------CLIENTS------------------- */
-.clients {
-  @extend %section;
-}
-.clients__wrap {
-  @extend %container;
-}
-.clients__title {
-  @extend %section-title;
-}
-/* clients list */
-.clients-list__item {
-  height: 92px;
-}
-.clients-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: calc(var(--grid-gap) / 2);
-
-  color: var(--icon-base-color);
-  border: 1px solid var(--icon-base-color);
-  border-radius: 4px;
-
-  transition-duration: var(--transition-base-time);
-  transition-timing-function: var(--transition-base-animation);
-  transition-property: color, border-color;
-}
-.clients-list__link:hover,
-.clients-list__link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-.clients-list__icon {
-  max-width: 100%;
-  max-height: 100%;
-
-  fill: currentColor;
-}
-
 /* ----------------------PORTFOLIO------------------- */
 .portfolio {
   @extend %section;
