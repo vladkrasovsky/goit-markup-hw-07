@@ -6,6 +6,12 @@
   margin-right: auto;
 }
 
+.main-contacts__list, .filter, .nav, .socials-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -697,12 +703,6 @@ body {
 
 .link--light {
   color: var(--text-color-light);
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
 }
 
 /* socials list */

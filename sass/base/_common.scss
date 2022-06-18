@@ -347,14 +347,10 @@ body {
   color: var(--text-color-light);
 }
 
-.list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
 /* socials list */
 .socials-list {
+  @extend %list;
+
   display: flex;
 }
 .socials-list__item {
@@ -492,6 +488,8 @@ body {
 
 /* nav */
 .nav {
+  @extend %list;
+
   display: flex;
 }
 .nav__item:not(:last-child) {
@@ -711,6 +709,8 @@ body {
 
 /* ----------------------PORTFOLIO------------------- */
 .filter {
+  @extend %list;
+
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -835,6 +835,9 @@ body {
 /* main contacts */
 .main-contacts {
   font-style: normal;
+}
+.main-contacts__list {
+  @extend %list;
 }
 .main-contacts__item:not(:last-child) {
   margin-bottom: 9px;
