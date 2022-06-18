@@ -562,57 +562,6 @@ summary {
           transform: scale(1.2);
 }
 
-/* -----------------------GENERAL-------------------- */
-:root {
-  /* colors */
-  --accent-color: #2196f3;
-  --accent-color-dark: #1882d7;
-  --accent-color-overlay: rgba(33, 150, 243, 0.9);
-  --text-color: #757575;
-  --text-color-dark: #212121;
-  --text-color-light: #ffffff;
-  --socials-color: #ffffff;
-  --socials-bg: rgba(255, 255, 255, 0.1);
-  --icon-base-color: #afb1b8;
-  --main-bg: #fff;
-  --section-bg-dark: #2f303a;
-  --section-bg-light: #f5f4fa;
-  --button-bg: #f5f4fa;
-  --card-bg: #ffffff;
-  --header-bg: #ffffff;
-  --header-border-color: #ececec;
-  --portfolio-border-color: #eeeeee;
-  --footer-link-color: rgba(255, 255, 255, 0.6);
-  --work-label-bg: rgba(47, 48, 58, 0.8);
-  --overlay-color: rgba(0, 0, 0, 0.2);
-  --modal-bg: #ffffff;
-  --modal-close-border-color: rgba(0, 0, 0, 0.1);
-  --input-border-color: rgba(33, 33, 33, 0.2);
-  --input-border-color-light: rgba(255, 255, 255, 0.3);
-  --placeholder-color: rgba(117, 117, 117, 0.5);
-  /* sizes */
-  --container-width: 1200px;
-  --footer-padding: 60px;
-  --header-padding: 32px;
-  --header-height: 80px;
-  --section-padding: 94px;
-  /* gutters */
-  --grid-gap: 30px;
-  --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  /* typography */
-  --font-default: "Roboto", sans-serif;
-  --font-secondary: "Raleway", sans-serif;
-  --font-size-default: 14px;
-  --letter-spacing-default: 0.03em;
-  --letter-spacing-xs: 0.01em;
-  --letter-spacing-sm: 0.02em;
-  --letter-spacing-lg: 0.06em;
-  /* transitions */
-  --transition-base-time: 250ms;
-  --transition-base-animation: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 body {
   min-width: 1200px;
   /* fixed layout width */
