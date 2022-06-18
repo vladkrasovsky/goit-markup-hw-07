@@ -41,6 +41,28 @@
   white-space: nowrap;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+.link:hover, .link:focus {
+  color: #2196f3;
+}
+
+.link--dark {
+  color: #212121;
+}
+
+.link--light {
+  color: #ffffff;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -598,31 +620,6 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-/* link */
-.link {
-  text-decoration: none;
-  color: inherit;
-  -webkit-transition-duration: var(--transition-base-time);
-          transition-duration: var(--transition-base-time);
-  -webkit-transition-timing-function: var(--transition-base-animation);
-          transition-timing-function: var(--transition-base-animation);
-  -webkit-transition-property: color;
-  transition-property: color;
-}
-
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
-
-.link--dark {
-  color: var(--text-color-dark);
-}
-
-.link--light {
-  color: var(--text-color-light);
 }
 
 .text-accent {

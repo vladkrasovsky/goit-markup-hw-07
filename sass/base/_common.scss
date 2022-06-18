@@ -73,26 +73,6 @@ body {
   height: auto;
 }
 
-/* link */
-.link {
-  text-decoration: none;
-  color: inherit;
-
-  transition-duration: var(--transition-base-time);
-  transition-timing-function: var(--transition-base-animation);
-  transition-property: color;
-}
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
-.link--dark {
-  color: var(--text-color-dark);
-}
-.link--light {
-  color: var(--text-color-light);
-}
-
 .text-accent {
   color: var(--accent-color);
 }

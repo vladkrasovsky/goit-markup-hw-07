@@ -1,0 +1,24 @@
+// Link
+
+.link {
+  text-decoration: none;
+  color: inherit;
+
+  transition-duration: $transition-base-time;
+  transition-timing-function: $transition-base-animation;
+  transition-property: color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+// link variants
+.link--dark {
+  color: $text-color-dark;
+}
+
+.link--light {
+  color: $text-color-light;
+}
