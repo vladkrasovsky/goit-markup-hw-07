@@ -340,46 +340,6 @@ body {
   margin-left: auto;
 }
 
-/* nav */
-.nav {
-  @extend %list;
-
-  display: flex;
-}
-.nav__item:not(:last-child) {
-  margin-right: 50px;
-}
-.nav__link {
-  display: inline-flex;
-  align-items: center;
-  padding-bottom: var(--header-padding);
-  padding-top: var(--header-padding);
-
-  font-weight: 500;
-  line-height: calc(16 / 14); /* need equal value to get propper height (80px) of header */
-  letter-spacing: var(--letter-spacing-sm);
-}
-.nav__item--current .nav__link {
-  position: relative;
-  color: var(--accent-color);
-}
-.nav__item--current .nav__link::after {
-  content: '';
-
-  position: absolute;
-  bottom: -1px;
-
-  width: 100%;
-  height: 4px;
-
-  background-color: currentColor;
-  border-radius: 2px;
-}
-.nav__icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
 /* -----------------------HERO----------------------- */
 .hero {
   max-width: 1600px;
