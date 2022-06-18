@@ -1,4 +1,4 @@
-.work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap {
+.team__wrap, .work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -18,12 +18,12 @@
   list-style-type: none;
 }
 
-.work, .benefits, .portfolio, .clients, .team {
+.team, .work, .benefits, .portfolio, .clients {
   padding-bottom: 94px;
   padding-top: 94px;
 }
 
-.work__title, .clients__title, .team__title {
+.team__title, .work__title, .clients__title {
   margin-bottom: 50px;
   margin-top: 0;
   font-size: 36px;
@@ -623,17 +623,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #fff;
-}
-
-/* -----------------------TEAM----------------------- */
-.team {
-  background-color: var(--section-bg-light);
-}
-
-.team__socials {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 /* ----------------------CLIENTS------------------- */
@@ -1422,4 +1411,14 @@ body {
 
 .work {
   padding-top: 47px;
+}
+
+.team {
+  background-color: var(--section-bg-light);
+}
+
+.team__socials {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }/*# sourceMappingURL=main.css.map */

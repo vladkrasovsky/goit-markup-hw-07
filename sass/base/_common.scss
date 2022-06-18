@@ -65,23 +65,6 @@ body {
   background-color: $main-bg;
 }
 
-/* -----------------------TEAM----------------------- */
-.team {
-  @extend %section;
-
-  background-color: var(--section-bg-light);
-}
-.team__wrap {
-  @extend %container;
-}
-.team__title {
-  @extend %section-title;
-}
-
-.team__socials {
-  justify-content: center;
-}
-
 /* ----------------------CLIENTS------------------- */
 .clients {
   @extend %section;
