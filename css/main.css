@@ -6,7 +6,7 @@
   margin-right: auto;
 }
 
-.card__image, .portfolio__image, .work-list__image {
+.work-list__image, .card__image, .portfolio__image {
   display: block;
   max-width: 100%;
   height: auto;
@@ -701,25 +701,6 @@ body {
 /* -----------------------WORK----------------------- */
 .work {
   padding-top: calc(var(--section-padding) / 2);
-}
-
-.work-list__item {
-  position: relative;
-}
-
-.work-list__label {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 27px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--text-color-light);
-  background-color: var(--work-label-bg);
 }
 
 /* -----------------------TEAM----------------------- */
@@ -1433,4 +1414,23 @@ body {
 .subscription-form__label {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.work-list__item {
+  position: relative;
+}
+
+.work-list__label {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 27px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
 }/*# sourceMappingURL=main.css.map */

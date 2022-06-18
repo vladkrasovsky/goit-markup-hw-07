@@ -1,0 +1,30 @@
+// Work list
+
+.work-list {
+}
+
+.work-list__item {
+  position: relative;
+}
+
+.work-list__image {
+  @extend %image;
+}
+
+.work-list__label {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 27px;
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: $text-color-light;
+  background-color: $work-label-bg;
+}
