@@ -889,18 +889,18 @@ body {
 
 .main-contacts__link {
   line-height: 1.71;
-  -webkit-transition-duration: var(--transition-base-time);
-          transition-duration: var(--transition-base-time);
-  -webkit-transition-timing-function: var(--transition-base-animation);
-          transition-timing-function: var(--transition-base-animation);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-property: color;
   transition-property: color;
 }
-.main-contacts__link:hover, .main-contacts__link:focus {
-  color: var(--accent-color);
-}
 .main-contacts__link:not(.link--light) {
-  color: var(--footer-link-color);
+  color: rgba(255, 255, 255, 0.6);
+}
+.main-contacts__link:hover, .main-contacts__link:focus {
+  color: #2196f3;
 }
 
 .modal {

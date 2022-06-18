@@ -15,16 +15,16 @@
 .main-contacts__link {
   line-height: 1.71;
 
-  transition-duration: var(--transition-base-time);
-  transition-timing-function: var(--transition-base-animation);
+  transition-duration: $transition-base-time;
+  transition-timing-function: $transition-base-animation;
   transition-property: color;
+
+  &:not(.link--light) {
+    color: $footer-link-color;
+  }
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
-  }
-
-  &:not(.link--light) {
-    color: var(--footer-link-color);
+    color: $accent-color;
   }
 }
