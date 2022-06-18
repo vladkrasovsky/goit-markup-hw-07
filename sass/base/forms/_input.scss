@@ -1,0 +1,51 @@
+// Input
+
+.input {
+  height: 40px;
+  max-width: 100%;
+  padding: 11px;
+
+  letter-spacing: $letter-spacing-default;
+  color: $text-color-dark;
+
+  border: 1px solid $input-border-color;
+  border-radius: 4px;
+
+  transition-property: border-color;
+  transition-duration: $transition-base-time;
+  transition-timing-function: $transition-base-animation;
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+
+  &::placeholder {
+    color: $placeholder-color;
+  }
+}
+
+/* input variants */
+.input--light {
+  color: $text-color-light;
+  background-color: transparent;
+  border-color: $input-border-color-light;
+}
+
+.input--large {
+  height: 50px;
+  padding: 15px;
+
+  font-size: 16px;
+}
+
+.input--textarea {
+  height: 120px;
+  padding: 12px 16px;
+
+  resize: none;
+}
+
+.input--has-icon {
+  padding-left: 42px;
+}
