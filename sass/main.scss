@@ -1,4 +1,10 @@
+// Utils section
 @import './utils/vars';
 @import './utils/placeholders';
+
+// Base section
 @import './base/modern-normalize';
 @import './base/common';
+
+// Components section
+@import './components/logo';

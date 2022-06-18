@@ -284,8 +284,6 @@ summary {
   --text-color: #757575;
   --text-color-dark: #212121;
   --text-color-light: #ffffff;
-  --logo-color-dark: #000000;
-  --logo-color-light: #ffffff;
   --socials-color: #ffffff;
   --socials-bg: rgba(255, 255, 255, 0.1);
   --icon-base-color: #afb1b8;
@@ -758,31 +756,6 @@ body {
   background-color: var(--socials-bg);
 }
 
-.logo {
-  display: inline-block;
-  font-family: var(--font-secondary);
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  letter-spacing: var(--letter-spacing-default);
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-.logo--dark,
-.logo--dark:hover,
-.logo--dark:focus {
-  color: var(--logo-color-dark);
-}
-
-.logo--light,
-.logo--light:hover,
-.logo--light:focus {
-  color: var(--logo-color-light);
-}
-
 .section {
   padding-bottom: var(--section-padding);
   padding-top: var(--section-padding);
@@ -846,9 +819,6 @@ body {
 .page-header__logo {
   -ms-flex-item-align: stretch;
       align-self: stretch;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1451,4 +1421,31 @@ body {
 /* data form */
 .data-form__comment {
   margin-bottom: 20px;
+}
+
+.logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.logo--dark,
+.logo--dark:hover,
+.logo--dark:focus {
+  color: #000000;
+}
+
+.logo--light,
+.logo--light:hover,
+.logo--light:focus {
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */

@@ -7,8 +7,6 @@
   --text-color: #757575;
   --text-color-dark: #212121;
   --text-color-light: #ffffff;
-  --logo-color-dark: #000000;
-  --logo-color-light: #ffffff;
   --socials-color: #ffffff;
   --socials-bg: rgba(255, 255, 255, 0.1);
   --icon-base-color: #afb1b8;
@@ -390,28 +388,6 @@ body {
   background-color: var(--socials-bg);
 }
 
-.logo {
-  display: inline-block;
-
-  font-family: var(--font-secondary);
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  letter-spacing: var(--letter-spacing-default);
-
-  user-select: none;
-}
-.logo--dark,
-.logo--dark:hover,
-.logo--dark:focus {
-  color: var(--logo-color-dark);
-}
-.logo--light,
-.logo--light:hover,
-.logo--light:focus {
-  color: var(--logo-color-light);
-}
-
 .section {
   padding-bottom: var(--section-padding);
   padding-top: var(--section-padding);
@@ -476,7 +452,6 @@ body {
 }
 .page-header__logo {
   align-self: stretch;
-  display: flex;
   align-items: center;
 }
 .page-header__menu {
