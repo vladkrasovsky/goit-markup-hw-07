@@ -1,0 +1,35 @@
+// Hero
+
+.hero {
+  max-width: 1600px;
+  min-height: 600px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+  background-color: $section-bg-dark;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero-bg.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__wrap {
+  @extend %container;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  margin-top: 0;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: $letter-spacing-lg;
+  text-transform: uppercase;
+  color: $text-color-light;
+}

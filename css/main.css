@@ -1,4 +1,4 @@
-.page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap, .benefits__wrap, .hero__wrap {
+.hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap, .benefits__wrap {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -623,34 +623,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #fff;
-}
-
-/* -----------------------HERO----------------------- */
-.hero {
-  max-width: 1600px;
-  min-height: 600px;
-  padding-bottom: 200px;
-  padding-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-color: var(--section-bg-dark);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-bg.jpeg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-bg.jpeg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.hero__title {
-  margin-bottom: 30px;
-  margin-top: 0;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: var(--letter-spacing-lg);
-  text-transform: uppercase;
-  color: var(--text-color-light);
 }
 
 /* -----------------------BENEFITS------------------- */
@@ -1425,4 +1397,31 @@ body {
   left: 0;
   right: 0;
   z-index: 10;
+}
+
+.hero {
+  max-width: 1600px;
+  min-height: 600px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #2f303a;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-bg.jpeg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-bg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
