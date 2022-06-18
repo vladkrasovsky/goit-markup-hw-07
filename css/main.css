@@ -63,6 +63,10 @@
   color: #ffffff;
 }
 
+.text-accent {
+  color: #2196f3;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -620,10 +624,6 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.text-accent {
-  color: var(--accent-color);
 }
 
 /* -----------------------PAGE HEADER--------------------- */
