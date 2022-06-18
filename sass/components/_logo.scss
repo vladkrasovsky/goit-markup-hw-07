@@ -12,14 +12,19 @@
   user-select: none;
 }
 
-.logo--dark,
-.logo--dark:hover,
-.logo--dark:focus {
-  color: $logo-color-dark;
+// logo variants
+.logo--dark {
+  &,
+  &:hover,
+  &:focus {
+    color: $logo-color-dark;
+  }
 }
 
-.logo--light,
-.logo--light:hover,
-.logo--light:focus {
-  color: $logo-color-light;
+.logo--light {
+  &,
+  &:hover,
+  &:focus {
+    color: $logo-color-light;
+  }
 }

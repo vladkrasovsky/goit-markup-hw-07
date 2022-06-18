@@ -1366,15 +1366,11 @@ body {
           user-select: none;
 }
 
-.logo--dark,
-.logo--dark:hover,
-.logo--dark:focus {
+.logo--dark, .logo--dark:hover, .logo--dark:focus {
   color: #000000;
 }
 
-.logo--light,
-.logo--light:hover,
-.logo--light:focus {
+.logo--light, .logo--light:hover, .logo--light:focus {
   color: #ffffff;
 }
 
