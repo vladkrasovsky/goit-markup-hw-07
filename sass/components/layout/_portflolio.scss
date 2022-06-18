@@ -1,0 +1,17 @@
+// Portfolio
+
+.portfolio {
+  @extend %section;
+}
+
+.portfolio__wrap {
+  @extend %container;
+}
+
+.portfolio__filter {
+  margin-bottom: 50px;
+}
+
+.portfolio__image {
+  @extend %image;
+}

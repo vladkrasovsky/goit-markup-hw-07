@@ -1,4 +1,4 @@
-.clients__wrap, .team__wrap, .work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap {
+.portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -6,7 +6,7 @@
   margin-right: auto;
 }
 
-.work-list__image, .card__image, .portfolio__image {
+.portfolio__image, .work-list__image, .card__image {
   display: block;
   max-width: 100%;
   height: auto;
@@ -18,7 +18,7 @@
   list-style-type: none;
 }
 
-.clients, .team, .work, .benefits, .portfolio {
+.portfolio, .clients, .team, .work, .benefits {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -623,11 +623,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #fff;
-}
-
-/* ----------------------PORTFOLIO------------------- */
-.portfolio__filter {
-  margin-bottom: 50px;
 }
 
 /* -----------------------FOOTER--------------------- */
@@ -1417,4 +1412,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.portfolio__filter {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
