@@ -1,0 +1,35 @@
+// Clients list
+
+.clients-list__item {
+  height: 92px;
+}
+
+.clients-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: calc($grid-gap / 2);
+
+  color: $icon-base-color;
+  border: 1px solid $icon-base-color;
+  border-radius: 4px;
+
+  transition-duration: $transition-base-time;
+  transition-timing-function: $transition-base-animation;
+  transition-property: color, border-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+  }
+}
+
+.clients-list__icon {
+  max-width: 100%;
+  max-height: 100%;
+
+  fill: currentColor;
+}
