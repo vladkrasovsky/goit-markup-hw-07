@@ -1,0 +1,25 @@
+// Grid
+
+.grid {
+  @extend %list;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * $grid-gap);
+  margin-top: calc(-1 * $grid-gap);
+}
+
+.grid__item {
+  flex-basis: calc(100% - $grid-gap);
+  margin-left: $grid-gap;
+  margin-top: $grid-gap;
+
+  // will generate grid variants
+  // from: .grid--1 > .grid__item
+  // to:  .grid--12 > .grid__item
+  @for $i from 1 through 12 {
+    .grid--#{$i} > & {
+      flex-basis: calc(100% / $i - $grid-gap);
+    }
+  }
+}

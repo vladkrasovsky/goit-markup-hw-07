@@ -35,7 +35,7 @@
   --section-padding: 94px;
 
   /* gutters */
-  --card-set-gap: 30px;
+  --grid-gap: 30px;
   --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
@@ -66,23 +66,6 @@ body {
 }
 
 /* -----------------------UTILITY CLASSES------------ */
-
-/* grid component */
-.grid {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: calc(-1 * var(--card-set-gap));
-  margin-top: calc(-1 * var(--card-set-gap));
-}
-.grid__item {
-  flex-basis: calc(100% / 4 - var(--card-set-gap));
-  margin-left: var(--card-set-gap);
-  margin-top: var(--card-set-gap);
-}
 
 /* forms */
 .form-field {
@@ -541,7 +524,7 @@ body {
   display: block;
   height: 120px;
   padding: 25px;
-  margin-bottom: var(--card-set-gap);
+  margin-bottom: var(--grid-gap);
 
   text-align: center;
 
@@ -579,8 +562,6 @@ body {
 }
 .work-list__item {
   position: relative;
-
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 .work-list__label {
   position: absolute;
@@ -651,16 +632,13 @@ body {
 .clients-list__item {
   height: 92px;
 }
-.clients-list__item {
-  flex-basis: calc(100% / 6 - var(--card-set-gap));
-}
 .clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  padding: calc(var(--card-set-gap) / 2);
+  padding: calc(var(--grid-gap) / 2);
 
   color: var(--icon-base-color);
   border: 1px solid var(--icon-base-color);
@@ -692,9 +670,6 @@ body {
 }
 .filter__item:not(:last-child) {
   margin-right: 8px;
-}
-.portfolio__item {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 
 /* product */
@@ -899,7 +874,7 @@ body {
 
   display: flex;
   height: 100%;
-  padding: var(--card-set-gap);
+  padding: var(--grid-gap);
 
   overflow-x: hidden;
   overflow-y: auto;
