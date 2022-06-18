@@ -31,6 +31,10 @@
   margin-bottom: 16px;
 }
 
+.card__image {
+  @extend %image;
+}
+
 // card variants
 .card--centered {
   text-align: center;

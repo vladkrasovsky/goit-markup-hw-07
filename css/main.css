@@ -6,6 +6,12 @@
   margin-right: auto;
 }
 
+.card__image, .portfolio__image, .work-list__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .socials-list, .nav, .main-contacts__list, .grid, .filter {
   padding: 0;
   margin: 0;
@@ -617,13 +623,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #fff;
-}
-
-/* -----------------------UTILITY CLASSES------------ */
-.image {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 /* -----------------------PAGE HEADER--------------------- */

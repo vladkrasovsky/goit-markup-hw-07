@@ -65,14 +65,6 @@ body {
   background-color: $main-bg;
 }
 
-/* -----------------------UTILITY CLASSES------------ */
-
-.image {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 /* -----------------------PAGE HEADER--------------------- */
 .page-header {
   min-height: var(--header-height);
@@ -164,6 +156,9 @@ body {
 .work-list__item {
   position: relative;
 }
+.work-list__image {
+  @extend %image;
+}
 .work-list__label {
   position: absolute;
   bottom: 0;
@@ -250,6 +245,9 @@ body {
 }
 .portfolio__filter {
   margin-bottom: 50px;
+}
+.portfolio__image {
+  @extend %image;
 }
 
 /* -----------------------FOOTER--------------------- */
