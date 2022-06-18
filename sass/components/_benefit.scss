@@ -1,0 +1,39 @@
+// Benefit
+
+.benefit {
+}
+
+.benefit__thumb {
+  display: block;
+  height: 120px;
+  padding: 25px;
+  margin-bottom: $grid-gap;
+
+  text-align: center;
+
+  background-color: $section-bg-light;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.benefit__title,
+.benefit__text {
+  margin-top: 0;
+}
+
+.benefit__title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: $font-size-default;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $text-color-dark;
+}
+
+.benefit__text {
+  margin-bottom: 0;
+  line-height: 1.71;
+}
