@@ -600,16 +600,6 @@ body {
 }
 
 /* ----------------------PORTFOLIO------------------- */
-.filter {
-  @extend %list;
-
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-}
-.filter__item:not(:last-child) {
-  margin-right: 8px;
-}
 
 /* product */
 .product {
