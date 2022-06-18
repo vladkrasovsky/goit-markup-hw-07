@@ -824,29 +824,6 @@ body {
   margin-left: auto;
 }
 
-.subscription-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.subscription-form__field {
-  margin-bottom: 0;
-}
-
-.subscription-form__input {
-  width: 358px;
-  margin-right: 12px;
-}
-
-.subscription-form__label {
-  font-size: 16px;
-  color: var(--footer-link-color);
-}
-
 /* -----------------------MODALS--------------------- */
 .backdrop {
   position: fixed;
@@ -1438,4 +1415,27 @@ body {
 .socials-list__link--light {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.subscription-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscription-form__field {
+  margin-bottom: 0;
+}
+
+.subscription-form__input {
+  width: 358px;
+  margin-right: 12px;
+}
+
+.subscription-form__label {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
 }/*# sourceMappingURL=main.css.map */

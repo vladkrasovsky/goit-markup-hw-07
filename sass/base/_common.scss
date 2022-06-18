@@ -328,21 +328,6 @@ body {
 .footer__item--subscription {
   margin-left: auto;
 }
-.subscription-form {
-  display: flex;
-  align-items: center;
-}
-.subscription-form__field {
-  margin-bottom: 0;
-}
-.subscription-form__input {
-  width: 358px;
-  margin-right: 12px;
-}
-.subscription-form__label {
-  font-size: 16px;
-  color: var(--footer-link-color);
-}
 
 /* -----------------------MODALS--------------------- */
 .backdrop {
