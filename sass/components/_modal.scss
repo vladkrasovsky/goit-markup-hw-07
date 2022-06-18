@@ -1,0 +1,100 @@
+// Modal
+
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  height: 100%;
+  padding: $grid-gap;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal__dialog {
+  position: relative;
+
+  width: 528px;
+  max-width: 100%;
+  min-height: 580px;
+  margin: auto;
+  padding: 40px;
+
+  color: $text-color;
+  line-height: 1.71;
+
+  background-color: $modal-bg;
+  border-radius: 4px;
+  box-shadow: $card-shadow;
+
+  transform: none;
+  transition-property: transform, opacity;
+  transition-duration: $transition-base-time;
+  transition-timing-function: $transition-base-animation;
+
+  .backdrop--hidden & {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+
+// modal-dialog variants
+.modal__dialog--centered {
+  text-align: center;
+}
+
+.modal__close {
+  $size: 30px;
+
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: $size;
+  width: $size;
+
+  background-color: transparent;
+  border: 1px solid $modal-close-border-color;
+  border-radius: 50%;
+
+  transition-property: fill, transform;
+  transition-duration: $transition-base-time;
+  transition-timing-function: $transition-base-animation;
+
+  cursor: pointer;
+
+  &:hover {
+    fill: $accent-color;
+  }
+  &:focus {
+    transform: rotate(90deg);
+  }
+}
+
+.modal__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: $letter-spacing-default;
+
+  color: $text-color-dark;
+}
+
+.modal__link {
+  color: $accent-color;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: $accent-color-dark;
+  }
+}
