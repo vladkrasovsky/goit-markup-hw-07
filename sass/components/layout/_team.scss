@@ -3,7 +3,7 @@
 .team {
   @extend %section;
 
-  background-color: var(--section-bg-light);
+  background-color: $section-bg-light;
 }
 
 .team__wrap {
