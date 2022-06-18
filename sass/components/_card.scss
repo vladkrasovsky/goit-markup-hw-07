@@ -1,0 +1,42 @@
+// Card
+
+.card {
+  background-color: $card-bg;
+  box-shadow: $card-shadow;
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+}
+
+.card__body {
+  padding: 30px 24px;
+}
+
+.card__title,
+.card__text {
+  margin-top: 0;
+
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: $letter-spacing-default;
+}
+
+.card__title {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  color: $text-color-dark;
+}
+
+.card__text {
+  margin-bottom: 16px;
+}
+
+// card variants
+.card--centered {
+  text-align: center;
+}
+
+.card--centered .card__image {
+  margin-left: auto;
+  margin-right: auto;
+}
