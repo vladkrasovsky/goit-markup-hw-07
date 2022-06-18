@@ -267,29 +267,6 @@ body {
   color: var(--text-color-light);
 }
 
-.section {
-  padding-bottom: var(--section-padding);
-  padding-top: var(--section-padding);
-}
-
-.section__wrap {
-  @extend %container;
-}
-
-.section__title {
-  margin-bottom: 50px;
-  margin-top: 0;
-
-  font-size: 36px;
-  line-height: 1.16;
-  color: var(--text-color-dark);
-  letter-spacing: var(--letter-spacing-default);
-}
-
-.section__title--centered {
-  text-align: center;
-}
-
 .text-accent {
   color: var(--accent-color);
 }
@@ -376,12 +353,26 @@ body {
 /* -----------------------BENEFITS------------------- */
 
 .benefits {
+  @extend %section;
+
   padding-bottom: calc(var(--section-padding) / 2);
+}
+
+.benefits__wrap {
+  @extend %container;
 }
 
 /* -----------------------WORK----------------------- */
 .work {
+  @extend %section;
+
   padding-top: calc(var(--section-padding) / 2);
+}
+.work__wrap {
+  @extend %container;
+}
+.work__title {
+  @extend %section-title;
 }
 .work-list__item {
   position: relative;
@@ -406,7 +397,15 @@ body {
 
 /* -----------------------TEAM----------------------- */
 .team {
+  @extend %section;
+
   background-color: var(--section-bg-light);
+}
+.team__wrap {
+  @extend %container;
+}
+.team__title {
+  @extend %section-title;
 }
 
 .team__socials {
@@ -414,7 +413,15 @@ body {
 }
 
 /* ----------------------CLIENTS------------------- */
-
+.clients {
+  @extend %section;
+}
+.clients__wrap {
+  @extend %container;
+}
+.clients__title {
+  @extend %section-title;
+}
 /* clients list */
 .clients-list__item {
   height: 92px;
@@ -448,6 +455,12 @@ body {
 }
 
 /* ----------------------PORTFOLIO------------------- */
+.portfolio {
+  @extend %section;
+}
+.portfolio__wrap {
+  @extend %container;
+}
 .portfolio__filter {
   margin-bottom: 50px;
 }

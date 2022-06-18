@@ -1,4 +1,4 @@
-.footer__wrap, .hero__wrap, .page-header__wrap, .section__wrap {
+.footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -10,6 +10,21 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+.portfolio, .clients, .team, .work, .benefits {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.clients__title, .team__title, .work__title {
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -606,24 +621,6 @@ body {
 
 .link--light {
   color: var(--text-color-light);
-}
-
-.section {
-  padding-bottom: var(--section-padding);
-  padding-top: var(--section-padding);
-}
-
-.section__title {
-  margin-bottom: 50px;
-  margin-top: 0;
-  font-size: 36px;
-  line-height: 1.16;
-  color: var(--text-color-dark);
-  letter-spacing: var(--letter-spacing-default);
-}
-
-.section__title--centered {
-  text-align: center;
 }
 
 .text-accent {

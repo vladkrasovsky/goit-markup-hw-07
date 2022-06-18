@@ -11,3 +11,19 @@
   margin: 0;
   list-style-type: none;
 }
+
+%section {
+  padding-bottom: $section-padding;
+  padding-top: $section-padding;
+}
+
+%section-title {
+  margin-bottom: 50px;
+  margin-top: 0;
+
+  font-size: 36px;
+  line-height: 1.16;
+  color: $text-color-dark;
+  letter-spacing: $letter-spacing-default;
+  text-align: center;
+}
