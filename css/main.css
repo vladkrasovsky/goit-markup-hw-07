@@ -1,4 +1,4 @@
-.portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap {
+.page-footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -623,46 +623,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #fff;
-}
-
-/* -----------------------FOOTER--------------------- */
-.footer {
-  padding-bottom: var(--footer-padding);
-  padding-top: var(--footer-padding);
-  background-color: var(--section-bg-dark);
-}
-
-.footer__wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
-.footer__item:not(:last-child) {
-  margin-right: 70px;
-}
-
-.footer__logo {
-  margin-bottom: 20px;
-}
-
-.footer__title {
-  margin-bottom: 20px;
-  margin-top: 0;
-  color: var(--text-color-light);
-  font-style: normal;
-  font-weight: 700;
-  font-size: var(--font-size-default);
-  line-height: 1.14;
-  letter-spacing: var(--letter-spacing-default);
-  text-transform: uppercase;
-}
-
-.footer__item--subscription {
-  margin-left: auto;
 }
 
 .backdrop {
@@ -1416,4 +1376,43 @@ body {
 
 .portfolio__filter {
   margin-bottom: 50px;
+}
+
+.page-footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-color: #2f303a;
+}
+
+.page-footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.page-footer__item:not(:last-child) {
+  margin-right: 70px;
+}
+
+.page-footer__logo {
+  margin-bottom: 20px;
+}
+
+.page-footer__title {
+  margin-bottom: 20px;
+  margin-top: 0;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.page-footer__item--subscription {
+  margin-left: auto;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+// Page footer
+
+.page-footer {
+  padding-bottom: $footer-padding;
+  padding-top: $footer-padding;
+
+  background-color: $section-bg-dark;
+}
+
+.page-footer__wrap {
+  @extend %container;
+
+  display: flex;
+  align-items: baseline;
+}
+
+.page-footer__item:not(:last-child) {
+  margin-right: 70px;
+}
+
+.page-footer__logo {
+  margin-bottom: 20px;
+}
+
+.page-footer__title {
+  margin-bottom: 20px;
+  margin-top: 0;
+
+  color: $text-color-light;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: $font-size-default;
+  line-height: 1.14;
+  letter-spacing: $letter-spacing-default;
+  text-transform: uppercase;
+}
+
+.page-footer__item--subscription {
+  margin-left: auto;
+}
