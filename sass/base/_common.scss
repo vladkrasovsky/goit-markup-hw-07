@@ -267,49 +267,6 @@ body {
   color: var(--text-color-light);
 }
 
-/* socials list */
-.socials-list {
-  @extend %list;
-
-  display: flex;
-}
-.socials-list__item {
-  --size: 44px;
-  height: var(--size);
-  width: var(--size);
-}
-.socials-list__item:not(:last-child) {
-  margin-right: 10px;
-}
-.socials-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: 100%;
-  width: 100%;
-
-  color: var(--icon-base-color);
-  background-color: transparent;
-  border-radius: 50%;
-  fill: currentColor;
-
-  transition-duration: var(--transition-base-time);
-  transition-timing-function: var(--transition-base-animation);
-  transition-property: color, background-color;
-}
-.socials-list__link:hover,
-.socials-list__link:focus {
-  color: var(--socials-color);
-  background-color: var(--accent-color);
-}
-
-/* socials list light */
-.socials-list__link--light {
-  color: var(--socials-color);
-  background-color: var(--socials-bg);
-}
-
 .section {
   padding-bottom: var(--section-padding);
   padding-top: var(--section-padding);
