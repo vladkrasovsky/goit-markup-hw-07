@@ -1,4 +1,4 @@
-.footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap {
+.page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap, .benefits__wrap, .hero__wrap {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -623,46 +623,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #fff;
-}
-
-/* -----------------------PAGE HEADER--------------------- */
-.page-header {
-  min-height: var(--header-height);
-  background-color: var(--header-bg);
-  border-bottom: 1px solid var(--header-border-color);
-}
-
-.page-header--fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-}
-
-.page-header__wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.page-header__logo {
-  -ms-flex-item-align: stretch;
-      align-self: stretch;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.page-header__menu {
-  margin-left: 93px;
-}
-
-.page-header__contacts {
-  margin-left: auto;
 }
 
 /* -----------------------HERO----------------------- */
@@ -1426,4 +1386,43 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
+}
+
+.page-header {
+  min-height: 80px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-header__logo {
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-header__menu {
+  margin-left: 93px;
+}
+
+.page-header__contacts {
+  margin-left: auto;
+}
+
+.page-header--fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }/*# sourceMappingURL=main.css.map */

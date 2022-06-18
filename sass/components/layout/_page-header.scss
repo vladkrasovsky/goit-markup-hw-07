@@ -1,0 +1,37 @@
+// Page header
+
+.page-header {
+  min-height: $header-height;
+
+  background-color: $header-bg;
+  border-bottom: 1px solid $header-border-color;
+}
+
+.page-header__wrap {
+  @extend %container;
+
+  display: flex;
+  align-items: center;
+}
+
+.page-header__logo {
+  align-self: stretch;
+  align-items: center;
+}
+
+.page-header__menu {
+  margin-left: 93px;
+}
+
+.page-header__contacts {
+  margin-left: auto;
+}
+
+// page-header variants
+.page-header--fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}

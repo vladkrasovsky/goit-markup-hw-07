@@ -65,37 +65,6 @@ body {
   background-color: $main-bg;
 }
 
-/* -----------------------PAGE HEADER--------------------- */
-.page-header {
-  min-height: var(--header-height);
-
-  background-color: var(--header-bg);
-  border-bottom: 1px solid var(--header-border-color);
-}
-.page-header--fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-}
-.page-header__wrap {
-  @extend %container;
-
-  display: flex;
-  align-items: center;
-}
-.page-header__logo {
-  align-self: stretch;
-  align-items: center;
-}
-.page-header__menu {
-  margin-left: 93px;
-}
-.page-header__contacts {
-  margin-left: auto;
-}
-
 /* -----------------------HERO----------------------- */
 .hero {
   max-width: 1600px;
