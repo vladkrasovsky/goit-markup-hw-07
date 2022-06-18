@@ -1,3 +1,11 @@
+.footer__wrap, .hero__wrap, .page-header__wrap, .section__wrap {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -327,16 +335,6 @@ body {
 }
 
 /* -----------------------UTILITY CLASSES------------ */
-.container {
-  width: var(--container-width);
-  padding-left: calc(var(--card-set-gap) / 2);
-  padding-right: calc(var(--card-set-gap) / 2);
-  margin-left: auto;
-  margin-right: auto;
-  /* debug */
-  /* outline: 1px dashed red; */
-}
-
 /* grid component */
 .grid {
   padding: 0;
