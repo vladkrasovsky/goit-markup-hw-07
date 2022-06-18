@@ -1,0 +1,15 @@
+// Work
+
+.work {
+  @extend %section;
+
+  padding-top: calc($section-padding / 2);
+}
+
+.work__wrap {
+  @extend %container;
+}
+
+.work__title {
+  @extend %section-title;
+}

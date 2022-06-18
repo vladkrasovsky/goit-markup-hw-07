@@ -3,7 +3,7 @@
 .benefits {
   @extend %section;
 
-  padding-bottom: calc(var(--section-padding) / 2);
+  padding-bottom: calc($section-padding / 2);
 }
 
 .benefits__wrap {

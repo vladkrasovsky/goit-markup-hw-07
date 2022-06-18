@@ -1,4 +1,4 @@
-.benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap, .work__wrap {
+.work__wrap, .benefits__wrap, .hero__wrap, .page-header__wrap, .footer__wrap, .portfolio__wrap, .clients__wrap, .team__wrap {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -18,12 +18,12 @@
   list-style-type: none;
 }
 
-.benefits, .portfolio, .clients, .team, .work {
+.work, .benefits, .portfolio, .clients, .team {
   padding-bottom: 94px;
   padding-top: 94px;
 }
 
-.clients__title, .team__title, .work__title {
+.work__title, .clients__title, .team__title {
   margin-bottom: 50px;
   margin-top: 0;
   font-size: 36px;
@@ -623,11 +623,6 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   background-color: #fff;
-}
-
-/* -----------------------WORK----------------------- */
-.work {
-  padding-top: calc(var(--section-padding) / 2);
 }
 
 /* -----------------------TEAM----------------------- */
@@ -1422,5 +1417,9 @@ body {
 }
 
 .benefits {
-  padding-bottom: calc(var(--section-padding) / 2);
+  padding-bottom: 47px;
+}
+
+.work {
+  padding-top: 47px;
 }/*# sourceMappingURL=main.css.map */
