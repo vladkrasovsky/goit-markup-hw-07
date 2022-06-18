@@ -955,11 +955,6 @@ body {
   color: var(--accent-color-dark);
 }
 
-/* data form */
-.data-form__comment {
-  margin-bottom: 20px;
-}
-
 .benefit__thumb {
   display: block;
   height: 120px;
@@ -1095,6 +1090,10 @@ body {
 .card--centered .card__image {
   margin-left: auto;
   margin-right: auto;
+}
+
+.data-form__comment {
+  margin-bottom: 20px;
 }
 
 .filter {
