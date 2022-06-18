@@ -1,0 +1,66 @@
+// Button
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  padding: 10px 32px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: $letter-spacing-lg;
+  color: $text-color-dark;
+  fill: $text-color-dark;
+
+  background-color: $button-bg;
+  border: none;
+  border-radius: 4px;
+
+  transition-duration: $transition-base-time;
+  transition-timing-function: $transition-base-animation;
+  transition-property: color, background-color, box-shadow;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+// button icons
+.button__label + .button__icon,
+.button__icon + .button__label {
+  margin-left: 10px;
+}
+
+// button states
+.button:hover,
+.button:focus,
+.filter__item--current .button {
+  color: $text-color-light;
+
+  background-color: $accent-color;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button--accent {
+  color: $text-color-light;
+  background-color: $accent-color;
+  fill: $text-color-light;
+}
+.button--accent:hover,
+.button--accent:focus {
+  background-color: $accent-color-dark;
+}
+
+// button variants
+.button--small {
+  min-width: auto;
+  padding: 6px 22px;
+
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: $letter-spacing-default;
+}
